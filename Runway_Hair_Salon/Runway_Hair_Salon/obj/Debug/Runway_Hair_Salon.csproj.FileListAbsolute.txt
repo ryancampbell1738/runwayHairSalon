@@ -1,0 +1,10 @@
+C:\Users\30004700\Documents\GitHub\runwayHairSalon\Runway_Hair_Salon\Runway_Hair_Salon\bin\Debug\Runway_Hair_Salon.exe.config
+C:\Users\30004700\Documents\GitHub\runwayHairSalon\Runway_Hair_Salon\Runway_Hair_Salon\bin\Debug\Runway_Hair_Salon.exe
+C:\Users\30004700\Documents\GitHub\runwayHairSalon\Runway_Hair_Salon\Runway_Hair_Salon\bin\Debug\Runway_Hair_Salon.pdb
+C:\Users\30004700\Documents\GitHub\runwayHairSalon\Runway_Hair_Salon\Runway_Hair_Salon\obj\Debug\Runway_Hair_Salon.csproj.AssemblyReference.cache
+C:\Users\30004700\Documents\GitHub\runwayHairSalon\Runway_Hair_Salon\Runway_Hair_Salon\obj\Debug\Runway_Hair_Salon.Login.resources
+C:\Users\30004700\Documents\GitHub\runwayHairSalon\Runway_Hair_Salon\Runway_Hair_Salon\obj\Debug\Runway_Hair_Salon.Properties.Resources.resources
+C:\Users\30004700\Documents\GitHub\runwayHairSalon\Runway_Hair_Salon\Runway_Hair_Salon\obj\Debug\Runway_Hair_Salon.csproj.GenerateResource.cache
+C:\Users\30004700\Documents\GitHub\runwayHairSalon\Runway_Hair_Salon\Runway_Hair_Salon\obj\Debug\Runway_Hair_Salon.csproj.CoreCompileInputs.cache
+C:\Users\30004700\Documents\GitHub\runwayHairSalon\Runway_Hair_Salon\Runway_Hair_Salon\obj\Debug\Runway_Hair_Salon.exe
+C:\Users\30004700\Documents\GitHub\runwayHairSalon\Runway_Hair_Salon\Runway_Hair_Salon\obj\Debug\Runway_Hair_Salon.pdb
