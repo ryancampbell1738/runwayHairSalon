@@ -10,11 +10,16 @@ using System.Windows.Forms;
 
 namespace Runway_Hair_Salon
 {
-    public partial class Login : Form
+    public partial class Schedule: Form
     {
-        public Login()
+        public Schedule()
         {
             InitializeComponent();
+        }
+
+        private void Schedule_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

@@ -69,5 +69,25 @@ namespace Runway_Hair_Salon.Properties {
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Run_Way_Beauty_Salon_Header {
+            get {
+                object obj = ResourceManager.GetObject("Run_Way_Beauty_Salon_Header", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap White_and_Gold {
+            get {
+                object obj = ResourceManager.GetObject("White_and_Gold", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
     }
 }
