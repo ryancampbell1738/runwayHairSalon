@@ -16,10 +16,5 @@ namespace Runway_Hair_Salon
         {
             InitializeComponent();
         }
-
-        private void Schedule_Load(object sender, EventArgs e)
-        {
-
-        }
     }
 }

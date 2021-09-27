@@ -173,7 +173,7 @@ namespace Runway_Hair_Salon
             this.Name = "Schedule";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Schedule";
-            this.Load += new System.EventHandler(this.Schedule_Load);
+            //this.Load += new System.EventHandler(this.Schedule_Load);
             this.tabSchedule.ResumeLayout(false);
             this.tabDisplay.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
