@@ -29,72 +29,31 @@ namespace Runway_Hair_Salon
         /// </summary>
         private void InitializeComponent()
         {
-            this.pbLogo = new System.Windows.Forms.PictureBox();
-            this.txtUsername = new System.Windows.Forms.TextBox();
             this.txtEnterUsername = new System.Windows.Forms.TextBox();
-            this.txtPassword = new System.Windows.Forms.TextBox();
             this.txtEnterPassword = new System.Windows.Forms.TextBox();
             this.btnLogin = new System.Windows.Forms.Button();
+            this.pbLogo = new System.Windows.Forms.PictureBox();
+            this.lblUsername = new System.Windows.Forms.Label();
+            this.lblPassword = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pbLogo)).BeginInit();
             this.SuspendLayout();
-            // 
-            // pbLogo
-            // 
-            this.pbLogo.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.pbLogo.BackgroundImage = global::Runway_Hair_Salon.Properties.Resources.Run_Way_Beauty_Salon;
-            this.pbLogo.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pbLogo.Enabled = false;
-            this.pbLogo.Location = new System.Drawing.Point(389, 25);
-            this.pbLogo.Margin = new System.Windows.Forms.Padding(4);
-            this.pbLogo.Name = "pbLogo";
-            this.pbLogo.Size = new System.Drawing.Size(533, 492);
-            this.pbLogo.TabIndex = 0;
-            this.pbLogo.TabStop = false;
-            //this.pbLogo.Click += new System.EventHandler(this.pictureBox1_Click);
-            // 
-            // txtUsername
-            // 
-            this.txtUsername.BackColor = System.Drawing.Color.White;
-            this.txtUsername.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txtUsername.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtUsername.Location = new System.Drawing.Point(389, 524);
-            this.txtUsername.Margin = new System.Windows.Forms.Padding(4);
-            this.txtUsername.Name = "txtUsername";
-            this.txtUsername.Size = new System.Drawing.Size(533, 29);
-            this.txtUsername.TabIndex = 1;
-            this.txtUsername.Text = "Username";
-            this.txtUsername.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // txtEnterUsername
             // 
             this.txtEnterUsername.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtEnterUsername.Location = new System.Drawing.Point(389, 569);
-            this.txtEnterUsername.Margin = new System.Windows.Forms.Padding(4);
+            this.txtEnterUsername.Location = new System.Drawing.Point(438, 711);
+            this.txtEnterUsername.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtEnterUsername.Name = "txtEnterUsername";
-            this.txtEnterUsername.Size = new System.Drawing.Size(532, 36);
+            this.txtEnterUsername.Size = new System.Drawing.Size(598, 41);
             this.txtEnterUsername.TabIndex = 1;
-            // 
-            // txtPassword
-            // 
-            this.txtPassword.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txtPassword.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtPassword.Location = new System.Drawing.Point(389, 613);
-            this.txtPassword.Margin = new System.Windows.Forms.Padding(4);
-            this.txtPassword.Name = "txtPassword";
-            this.txtPassword.Size = new System.Drawing.Size(533, 29);
-            this.txtPassword.TabIndex = 1;
-            this.txtPassword.Text = "Password";
-            this.txtPassword.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // txtEnterPassword
             // 
             this.txtEnterPassword.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtEnterPassword.Location = new System.Drawing.Point(389, 657);
-            this.txtEnterPassword.Margin = new System.Windows.Forms.Padding(4);
+            this.txtEnterPassword.Location = new System.Drawing.Point(438, 821);
+            this.txtEnterPassword.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtEnterPassword.Name = "txtEnterPassword";
-            this.txtEnterPassword.Size = new System.Drawing.Size(532, 36);
+            this.txtEnterPassword.Size = new System.Drawing.Size(598, 41);
             this.txtEnterPassword.TabIndex = 1;
             // 
             // btnLogin
@@ -102,33 +61,70 @@ namespace Runway_Hair_Salon
             this.btnLogin.BackColor = System.Drawing.Color.Black;
             this.btnLogin.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnLogin.ForeColor = System.Drawing.Color.White;
-            this.btnLogin.Location = new System.Drawing.Point(1003, 601);
-            this.btnLogin.Margin = new System.Windows.Forms.Padding(4);
+            this.btnLogin.Location = new System.Drawing.Point(1128, 751);
+            this.btnLogin.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnLogin.Name = "btnLogin";
-            this.btnLogin.Size = new System.Drawing.Size(200, 62);
+            this.btnLogin.Size = new System.Drawing.Size(225, 78);
             this.btnLogin.TabIndex = 2;
             this.btnLogin.Text = "Login";
             this.btnLogin.UseVisualStyleBackColor = false;
             // 
+            // pbLogo
+            // 
+            this.pbLogo.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.pbLogo.BackColor = System.Drawing.Color.Transparent;
+            this.pbLogo.BackgroundImage = global::Runway_Hair_Salon.Properties.Resources.Run_Way_Beauty_Salon1;
+            this.pbLogo.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pbLogo.Enabled = false;
+            this.pbLogo.Location = new System.Drawing.Point(438, 31);
+            this.pbLogo.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.pbLogo.Name = "pbLogo";
+            this.pbLogo.Size = new System.Drawing.Size(600, 615);
+            this.pbLogo.TabIndex = 0;
+            this.pbLogo.TabStop = false;
+            // 
+            // lblUsername
+            // 
+            this.lblUsername.AutoSize = true;
+            this.lblUsername.BackColor = System.Drawing.Color.Transparent;
+            this.lblUsername.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblUsername.Location = new System.Drawing.Point(665, 661);
+            this.lblUsername.Name = "lblUsername";
+            this.lblUsername.Size = new System.Drawing.Size(150, 36);
+            this.lblUsername.TabIndex = 3;
+            this.lblUsername.Text = "Username";
+            // 
+            // lblPassword
+            // 
+            this.lblPassword.AutoSize = true;
+            this.lblPassword.BackColor = System.Drawing.Color.Transparent;
+            this.lblPassword.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblPassword.Location = new System.Drawing.Point(665, 772);
+            this.lblPassword.Name = "lblPassword";
+            this.lblPassword.Size = new System.Drawing.Size(147, 36);
+            this.lblPassword.TabIndex = 3;
+            this.lblPassword.Text = "Password";
+            // 
             // Login
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.BackgroundImage = global::Runway_Hair_Salon.Properties.Resources.White_and_Gold;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(1312, 752);
+            this.ClientSize = new System.Drawing.Size(1476, 940);
+            this.Controls.Add(this.lblPassword);
+            this.Controls.Add(this.lblUsername);
             this.Controls.Add(this.btnLogin);
             this.Controls.Add(this.txtEnterPassword);
-            this.Controls.Add(this.txtPassword);
             this.Controls.Add(this.txtEnterUsername);
-            this.Controls.Add(this.txtUsername);
             this.Controls.Add(this.pbLogo);
-            this.Margin = new System.Windows.Forms.Padding(4);
+            this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "Login";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Log In";
-            //this.Load += new System.EventHandler(this.Login_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pbLogo)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -136,13 +132,12 @@ namespace Runway_Hair_Salon
         }
 
         #endregion
-
-        private System.Windows.Forms.PictureBox pbLogo;
-        private System.Windows.Forms.TextBox txtUsername;
         private System.Windows.Forms.TextBox txtEnterUsername;
-        private System.Windows.Forms.TextBox txtPassword;
         private System.Windows.Forms.TextBox txtEnterPassword;
         private System.Windows.Forms.Button btnLogin;
+        private System.Windows.Forms.PictureBox pbLogo;
+        private System.Windows.Forms.Label lblUsername;
+        private System.Windows.Forms.Label lblPassword;
     }
 }
 

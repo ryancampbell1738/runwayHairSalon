@@ -20,3 +20,6 @@ D:\GitHub\HTML\runwayHairSalon\Runway_Hair_Salon\Runway_Hair_Salon\obj\Debug\Run
 D:\GitHub\HTML\runwayHairSalon\Runway_Hair_Salon\Runway_Hair_Salon\obj\Debug\Runway_Hair_Salon.pdb
 D:\GitHub\HTML\runwayHairSalon\Runway_Hair_Salon\Runway_Hair_Salon\obj\Debug\Runway_Hair_Salon.Schedule.resources
 C:\Users\30004700\Documents\GitHub\runwayHairSalon\Runway_Hair_Salon\Runway_Hair_Salon\obj\Debug\Runway_Hair_Salon.Schedule.resources
+C:\Users\Ryan\Documents\GitHub\runwayHairSalon\Runway_Hair_Salon\Runway_Hair_Salon\obj\Debug\Runway_Hair_Salon.csproj.AssemblyReference.cache
+C:\Users\Ryan\Documents\GitHub\runwayHairSalon\Runway_Hair_Salon\Runway_Hair_Salon\obj\Debug\Runway_Hair_Salon.exe
+C:\Users\Ryan\Documents\GitHub\runwayHairSalon\Runway_Hair_Salon\Runway_Hair_Salon\obj\Debug\Runway_Hair_Salon.pdb
